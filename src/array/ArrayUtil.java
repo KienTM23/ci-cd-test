@@ -1,6 +1,7 @@
 package array;
 
 public class ArrayUtil {
+	//
     public void printArray(int[] arr){
         int n = arr.length;
         for (int i = 0; i < n; i++) {
@@ -31,6 +32,7 @@ public class ArrayUtil {
       output : arr= {3,7,5}
      */
 
+//	remove
     int[] removeEven(int[] arr){
         int oddCount = 0;
         for (int i = 0; i < arr.length; i++) {
